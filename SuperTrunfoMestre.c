@@ -1,4 +1,4 @@
-// Desafio Super Trunfo - Países // Tema 3 - Versão finalizada
+// Desafio Super Trunfo - Estados - P/ Qualquer Cidade - Tema 3 - Versão finalizada
 
 #include <stdio.h>
 
@@ -51,8 +51,8 @@ int main() {
     pibpercapita2 = pib2 / populacao2;
 
     // Cálculo do Super Poder
-    superpoder1 = populacao1 + area1 + pib1 + pontosturistic1 + pibpercapita1 + (1.0 / densidade1);
-    superpoder2 = populacao2 + area2 + pib2 + pontosturistic2 + pibpercapita2 + (1.0 / densidade2);
+    superpoder1 = populacao1 + area1 + pib1 + pontosturistic1 + pibpercapita1 + (1 / densidade1);
+    superpoder2 = populacao2 + area2 + pib2 + pontosturistic2 + pibpercapita2 + (1 / densidade2);
 
     // Exibição dos dados das cartas
     printf("\n CARTA 1 \n");
